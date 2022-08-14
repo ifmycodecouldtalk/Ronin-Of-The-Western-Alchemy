@@ -1,0 +1,152 @@
+.my-link:hover {
+    color: #c0c0c0 !important;
+}
+.home-body {
+    background-color: #343434;
+    height: 100%;
+}
+.home-gradient {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(32,32,32,1) 50%, rgba(52,52,52,1) 100%);
+}
+.tagline {
+    position: relative;
+    top: -150px;
+    color: rgb(196, 196, 196);
+}
+.ronin-logo {
+    text-align: center;
+    position: relative;
+    top: -125px;
+}
+.ronin-logo-image {
+    width: 250px;
+    height: auto;
+}
+.title-card {
+    position: relative;
+    color: white;
+    top: -50px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.brief {
+    position: relative;
+    color: rgb(196, 196, 196);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+.oscp-logo {
+    position: relative;
+    left: 50px;
+    width: 80vw;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.oscp-logo-image {
+    width: 100px;
+    height: auto;
+}
+.white-text {
+    color: white;
+}
+.oscp-label {
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    font-size: 60px;
+    font-family: 'Helvetica';
+}
+.oscp-description {
+    position: relative;
+    left: 50px;
+    top: 15px;
+    font-size: 20px;
+    width: 80%;
+    font-family: 'Verdana';
+}
+.oscp-learnmore-link {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+
+.ceh-logo {
+    position: relative;
+    left: 50px;
+    width: 70vw;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.ceh-logo-image {
+    width: 100px;
+    height: auto;
+}
+.ceh-label {
+    position: relative;
+    top: -75px;
+    left: 125px;
+    font-size: 60px;
+    width: 80%;
+    font-family: 'Helvetica';
+}
+.ceh-description {
+    position: relative;
+    left: 50px;
+    top: -60px;
+    font-size: 20px;
+    width: 80%;
+    font-family: 'Verdana';
+}
+.ceh-learnmore-link {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+
+.katana-logo {
+    position: relative;
+    left: 50px;
+    width: 70vw;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.katana-logo-image {
+    width: 100px;
+    height: auto;
+}
+.katana-label {
+    position: relative;
+    top: -75px;
+    left: 125px;
+    font-size: 60px;
+    width: 80%;
+    font-family: 'Helvetica';
+}
+.katana-description {
+    position: relative;
+    left: 50px;
+    top: -60px;
+    font-size: 20px;
+    width: 80%;
+    font-family: 'Verdana';
+}
+.katana-learnmore-link {
+    position: relative;
+    top: -60px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Helvetica';
+}
+a {
+    color: rgb(210, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
