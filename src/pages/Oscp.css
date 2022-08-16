@@ -2,8 +2,8 @@ body {
     background-color: #343434;
 }
 .nav-chapters {
-    position: relative;
-    top: 30px;
+    position: fixed;
+    top: 105px;
     left: 75px;
     width: 25vw;
     height: 80vh;
@@ -40,4 +40,8 @@ body {
     left: 32vw;
     top: 100px;
     color: white;
+    width: 55vw;
+}
+.helvetica-text {
+    font-family: 'Helvetica';
 }
