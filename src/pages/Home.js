@@ -25,12 +25,12 @@ export class Home extends React.Component {
                          className='oscp-logo-image'
                          alt='oscp logo'
                     />
-                    <h2 className='white-text oscp-label'>OSCP Training</h2>
+                    <h2 className='white-text oscp-label'><b>OSCP Training</b></h2>
                 </div>
-                <p className='white-text oscp-description'>Learn how to Pentest with Kali Linux with hands on experience.
+                <p className='gray-text oscp-description'>Learn how to Pentest with Kali Linux with hands on experience.
                 This certification focuses<br /> on an exam that requires pwning boxes in 24 hours to pass. This site will give 
                 you the<br /> information and the practice to prepare for such tests</p>
-                <a href="#" target="_blank" className='oscp-learnmore-link'>Explore the OSCP Lessons Now!</a>
+                <a href="#" target="_blank" className='oscp-learnmore-link a-link'>Explore the OSCP Lessons Now!</a>
                 
                 <br /><br /><br /><br />
 
@@ -39,12 +39,12 @@ export class Home extends React.Component {
                          className='ceh-logo-image'
                          alt='CEH logo'
                     />
-                    <h2 className='white-text ceh-label'>CEH Study</h2>
+                    <h2 className='white-text ceh-label'><b>CEH Study</b></h2>
                 </div>
-                <p className='white-text ceh-description'>What separates the CEH from the others is their teaching of emerging
+                <p className='gray-text ceh-description'>What separates the CEH from the others is their teaching of emerging
                 attack vectors, usage of modern exploitation tools, hands-on hacking challenges, focus on malware analyses, 
                 and much more. This cert is highly coveted in the cybersecurity world.</p>
-                <a href="#" target="_blank" className='ceh-learnmore-link'>Explore the CEH Lessons Now!</a>
+                <a href="#" target="_blank" className='ceh-learnmore-link a-link'>Explore the CEH Lessons Now!</a>
                 
                 <br /><br />
 
@@ -53,12 +53,12 @@ export class Home extends React.Component {
                          className='katana-logo-image'
                          alt='katana logo'
                     />
-                    <h2 className='white-text katana-label'>What the Ronins are About</h2>
+                    <h2 className='white-text katana-label'><b>What the Ronins are About</b></h2>
                 </div>
-                <p className='white-text katana-description'>Our mission is to provide the knowledge of cybersecurity to those
+                <p className='gray-text katana-description'>Our mission is to provide the knowledge of cybersecurity to those
                 who cannot afford the expensive courses from established institutions. Knowledge and Security on the web
                 should not cost a fortune to obtain, but should rather be earned through hard work and dedication.</p>
-                <a href="#" target="_blank" className='katana-learnmore-link'>Click Here to Learn More About Our Cause!</a>
+                <a href="#" target="_blank" className='katana-learnmore-link a-link'>Click Here to Learn More About Our Cause!</a>
             </div>
             
         )

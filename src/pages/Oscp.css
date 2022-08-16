@@ -1,0 +1,43 @@
+body {
+    background-color: #343434;
+}
+.nav-chapters {
+    position: relative;
+    top: 30px;
+    left: 75px;
+    width: 25vw;
+    height: 80vh;
+    overflow-y: auto;
+}
+.white-text {
+    color: white;
+}
+.chapter-title {
+    position: relative;
+    top: -28px;
+    left: 35px;
+    width: 20vw;
+}
+.chapter-subsections {
+    position: relative;
+    top: -30px;
+    left: 50px;
+    width: 15vw;
+}
+.subsection {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+.subsection:hover {
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+.content {
+    position: absolute;
+    left: 32vw;
+    top: 100px;
+    color: white;
+}

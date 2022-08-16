@@ -8,6 +8,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/js/dist/dropdown';
 import Home from './pages/Home';
+import Oscp from './pages/Oscp';
 import './App.css'
 
 export class App extends React.Component {
@@ -17,10 +18,10 @@ export class App extends React.Component {
         {/* navigation bar goes here */}
         <nav className='navbar navbar-expand fixed-top bg-dark'>
           <div className='container'>
-            <a className='navbar-brand text-bg-dark' href='#'>Ronans of the Western Alchemy</a>
+            <a className='navbar-brand text-bg-dark' href='/'>Ronans of the Western Alchemy</a>
             <ul className='navbar-nav me-auto'>
               <li className='nav-item p-2'>
-                <a className='nav-link my-link text-bg-dark' href='#'>OSCP</a>
+                <Link to={'/oscp'} className='nav-link my-link text-bg-dark'>OSCP</Link>
               </li>
               <li className='nav-item p-2'>
                 <a className='nav-link my-link text-bg-dark' href='#'>CEH</a>
@@ -35,6 +36,7 @@ export class App extends React.Component {
         {/* pages rendered under the navbar */}
         <Routes>
           <Route path="/" element={<Home />}></Route>
+          <Route path="/oscp" element={<Oscp />}></Route>
         </Routes>
       </Router>
     )
