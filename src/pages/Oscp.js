@@ -28,8 +28,8 @@ export class Oscp extends React.Component {
                         <div className='chapter-subsections'>
                             <a className='subsection' onClick={() => this.changePage('1.1')}><b>1.1:</b> About the PWK Course</a><br />
                             <a className='subsection' onClick={() => this.changePage('1.2')}><b>1.2:</b> Overall Strategies for Approaching Course</a><br />
-                            <a className='subsection'><b>1.3:</b> Obtaining Support</a><br />
-                            <a className='subsection'><b>1.4:</b> About Penetration Testing</a><br />
+                            <a className='subsection' onClick={() => this.changePage('1.3')}><b>1.3:</b> Obtaining Support</a><br />
+                            <a className='subsection' onClick={() => this.changePage('1.4')}><b>1.4:</b> About Penetration Testing</a><br />
                             <a className='subsection'><b>1.5:</b> Legal</a><br />
                             <a className='subsection'><b>1.6:</b> The MegaCorpone.com and <br />Sandbox.local Domains</a><br />
                             <a className='subsection'><b>1.7:</b> About the PWK VPN Labs</a><br />
