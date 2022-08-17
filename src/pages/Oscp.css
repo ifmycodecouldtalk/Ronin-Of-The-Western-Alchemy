@@ -5,7 +5,7 @@ body {
     position: fixed;
     top: 105px;
     left: 75px;
-    width: 25vw;
+    width: 20vw;
     height: 80vh;
     overflow-y: auto;
 }
@@ -16,13 +16,13 @@ body {
     position: relative;
     top: -28px;
     left: 35px;
-    width: 20vw;
+    width: 15vw;
 }
 .chapter-subsections {
     position: relative;
     top: -30px;
-    left: 50px;
-    width: 15vw;
+    left: 35px;
+    width: 13vw;
 }
 .subsection {
     font-size: 14px;
@@ -37,15 +37,25 @@ body {
 }
 .content {
     position: absolute;
-    left: 32vw;
+    left: 28vw;
     top: 100px;
-    color: white;
-    width: 55vw;
+    color: rgb(230, 230, 230);
+    width: 53vw;
+    line-height: 35px;
 }
 .helvetica-text {
     font-family: 'Helvetica';
 }
-.figure-1-4-1 {
+.IMG_kali-menu {
     width: 500px;
     height: auto;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'helvetica';
+}
+.page > p, .page > ul {
+    position: relative;
+    left: 20px;
 }
